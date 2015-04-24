@@ -38,17 +38,17 @@
 
         <!-- ORACLE JDBC driver -->
         <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc14</artifactId>
-            <version>10.2.0.5.0</version>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901.jdbc4</version>
         </dependency>
 
         <!-- H2 JDBC driver -->
-        <dependency>
+       <!-- <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.184</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.javassist</groupId>
